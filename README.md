@@ -4,7 +4,7 @@
 # Features
 ## Login Page:
 - Users can log in to the system by entering the correct username and password combination.
-- Login information is validated against the existing database (data). If the username or password is incorrect, login is not allowed.
+- Login information is validated against the existing database. If the username or password is incorrect, login is not allowed.
 
 ## Users Page:
 - Upon successful login, users are redirected to the Users page.
