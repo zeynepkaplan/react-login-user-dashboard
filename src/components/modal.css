@@ -1,0 +1,73 @@
+.modal-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+
+/* Modal kutucuğu */
+.modal {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+    width: 30em;
+}
+
+
+/* Submit ve Cancel butonlarının görünümünü ayarlar. */
+.btn {
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px #ccc;
+    font-size: 1rem;
+}
+
+
+/* Submit ve Cancel butonlarının renklerini ayarlar. */
+.btn-submit {
+    background-color: #d9534f;
+}
+
+.btn-cancel {
+    background-color: #636060;
+}
+
+
+/* Kullanıcı ekle yazısının görünüşünü ayarlar. */
+.modal-header {
+    display: flex;
+    font-size: 2rem;
+}
+
+
+/* Bilgilerin girileceği kutucukların konumunu ayarlar. */
+.modal-content input {
+    height: 40px;
+    width: 472px;
+    margin-bottom: 15px;
+}
+
+
+/* Submit ve Cancel butonlarının yerini ayarlar. */
+.modal-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Rol kutucuğunun görünüşünü değiştirir. */
+.choose-box {
+    margin-bottom: 10px;
+    border-color: rgb(130, 127, 127);
+    border-width: 1px;
+    border-style: solid;
+}

@@ -1,0 +1,101 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #c1bace;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 30px;
+}
+
+
+/* Tablonun tüm sayfayı kaplaması için */
+.data-table {
+  width: 100%;
+  box-sizing: border-box;
+  table-layout: fixed;
+}
+
+
+/* Satırlar arası boşluk eklendi */
+.data-table th,
+.data-table td {
+  padding: 15px;
+  text-align: left;
+}
+
+
+/* Email sütununun uzunluğunu arttı */
+.data-table td:nth-child(4),
+.data-table th:nth-child(4) {
+  width: 25%;
+}
+
+
+/* İlk satırın rengi ayarlandı */
+.data-table th {
+  background-color: #f2f2f2;
+}
+
+
+/* Çift sayıdaki satırların rengini değişti */
+.data-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+/* İşaretlenebilen kutucuklar */
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+}
+
+
+.header {
+  display: grid;
+  /* h2 ve iconlar arası boşluklar */
+  grid-template-columns: 1fr 1000px 20px 110px 100px;
+  align-items: center;
+}
+
+
+/* Kullanıcılar yazısı */
+.header h2 {
+  padding-left: 10px;
+  margin-right: -20px;
+}
+
+
+/* Kullanıcı ekleme ve çöp kutusu iconları */
+.iconUserPlus,
+.iconBin {
+  cursor: pointer;
+  border: none;
+  padding: 1;
+  margin-right: 10px;
+  background-color: #c1bace;
+}
+
+
+.searchContainer {
+  width: 150px;
+  position: relative;
+  display: inline-block;
+}
+
+
+/* exit butonu */
+.exit {
+  border: none;
+  width: 105px;
+  height: 35px;
+  background-color: #f2f2f2;
+  color: rgb(0, 0, 0);
+  float: right;
+  margin-right: 20px;
+  justify-content: center;
+}
